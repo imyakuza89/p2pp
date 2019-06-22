@@ -270,7 +270,7 @@ message.author.send(`
 ❧ *move ➺ سحب الشخص الى الروم الي انته فيه
 ❧ *fast ➺ لعبة اسرع
 ❧ *news ➺ اخر تحديثات البوت
-─════════════ {✯By Dream ✯} ════════════─
+─════════════ {✯By Yakuza ✯} ════════════─
 **
 `);
 }
@@ -1329,7 +1329,7 @@ client.on('message', message => {
 
 
 var adminprefix = "*";
-const devs = ['461468630773661699','466734861558743041'];
+const devs = ['405683225445531648','466734861558743041'];
 client.on('message', message => {
   var argresult = message.content.split(` `).slice(1).join(' ');
     if (!devs.includes(message.author.id)) return;
